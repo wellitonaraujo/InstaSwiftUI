@@ -12,6 +12,8 @@
 		F98462512A1B937800D7931A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98462502A1B937800D7931A /* Assets.xcassets */; };
 		F98462542A1B937800D7931A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98462532A1B937800D7931A /* Preview Assets.xcassets */; };
 		F98462672A1B996100D7931A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98462662A1B996100D7931A /* MainTabView.swift */; };
+		F98462692A1B9E5000D7931A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98462682A1B9E5000D7931A /* ProfileView.swift */; };
+		F984626C2A1BB44B00D7931A /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984626B2A1BB44B00D7931A /* UserStatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		F98462502A1B937800D7931A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F98462532A1B937800D7931A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F98462662A1B996100D7931A /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		F98462682A1B9E5000D7931A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F984626B2A1BB44B00D7931A /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		F984625C2A1B941200D7931A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F984626A2A1BB3E300D7931A /* Components */,
 				F98462652A1B96FE00D7931A /* UploadPost */,
 				F98462642A1B96F500D7931A /* TabBar */,
 				F984625F2A1B95AE00D7931A /* Authentication */,
@@ -133,6 +138,7 @@
 		F98462612A1B962100D7931A /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				F98462682A1B9E5000D7931A /* ProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -164,6 +170,14 @@
 			children = (
 			);
 			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		F984626A2A1BB3E300D7931A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F984626B2A1BB44B00D7931A /* UserStatView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98462692A1B9E5000D7931A /* ProfileView.swift in Sources */,
 				F984624F2A1B937600D7931A /* ContentView.swift in Sources */,
 				F984624D2A1B937600D7931A /* InstaUIApp.swift in Sources */,
+				F984626C2A1BB44B00D7931A /* UserStatView.swift in Sources */,
 				F98462672A1B996100D7931A /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
