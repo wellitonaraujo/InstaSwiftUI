@@ -39,7 +39,7 @@ struct ProfileView: View {
 
                 // Name and Bio
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("Pototó do Mar")
+                    Text("Swifteiro")
                         .font(.footnote)
                         .fontWeight(.semibold)
                     Text("Pode pah")
@@ -67,7 +67,7 @@ struct ProfileView: View {
             }// - VStack
                 // - post grid view
                 LazyVGrid(columns: gridItems, spacing: 2) {
-                    ForEach(0 ... 14, id: \.self) {index in
+                    ForEach(0 ... 14, id: \.self) { index in
                         Image("coffee")
                             .resizable()
                             .scaledToFill()
