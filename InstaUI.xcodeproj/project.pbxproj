@@ -17,6 +17,7 @@
 		F984626E2A1BF6D000D7931A /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984626D2A1BF6D000D7931A /* FeedView.swift */; };
 		F98462702A1BF6E300D7931A /* FeedCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984626F2A1BF6E300D7931A /* FeedCellView.swift */; };
 		F984628C2A1CDE9000D7931A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984628B2A1CDE9000D7931A /* SearchView.swift */; };
+		F984628E2A1CED3C00D7931A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984628D2A1CED3C00D7931A /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		F984626D2A1BF6D000D7931A /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		F984626F2A1BF6E300D7931A /* FeedCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellView.swift; sourceTree = "<group>"; };
 		F984628B2A1CDE9000D7931A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F984628D2A1CED3C00D7931A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +102,10 @@
 		F984625C2A1B941200D7931A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F984625F2A1B95AE00D7931A /* Authentication */,
 				F984626A2A1BB3E300D7931A /* Components */,
 				F98462652A1B96FE00D7931A /* UploadPost */,
 				F98462642A1B96F500D7931A /* TabBar */,
-				F984625F2A1B95AE00D7931A /* Authentication */,
 				F98462632A1B963700D7931A /* Search */,
 				F98462602A1B961900D7931A /* Feed */,
 				F98462612A1B962100D7931A /* Profile */,
@@ -130,6 +132,7 @@
 		F984625F2A1B95AE00D7931A /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				F984628D2A1CED3C00D7931A /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				F98462702A1BF6E300D7931A /* FeedCellView.swift in Sources */,
 				F98462692A1B9E5000D7931A /* ProfileView.swift in Sources */,
 				F984624F2A1B937600D7931A /* ContentView.swift in Sources */,
+				F984628E2A1CED3C00D7931A /* LoginView.swift in Sources */,
 				F984624D2A1B937600D7931A /* InstaUIApp.swift in Sources */,
 				F984628C2A1CDE9000D7931A /* SearchView.swift in Sources */,
 				F984626C2A1BB44B00D7931A /* UserStatView.swift in Sources */,
