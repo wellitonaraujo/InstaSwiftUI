@@ -16,6 +16,7 @@
 		F984626C2A1BB44B00D7931A /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984626B2A1BB44B00D7931A /* UserStatView.swift */; };
 		F984626E2A1BF6D000D7931A /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984626D2A1BF6D000D7931A /* FeedView.swift */; };
 		F98462702A1BF6E300D7931A /* FeedCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984626F2A1BF6E300D7931A /* FeedCellView.swift */; };
+		F984628C2A1CDE9000D7931A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984628B2A1CDE9000D7931A /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		F984626B2A1BB44B00D7931A /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		F984626D2A1BF6D000D7931A /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		F984626F2A1BF6E300D7931A /* FeedCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellView.swift; sourceTree = "<group>"; };
+		F984628B2A1CDE9000D7931A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		F98462632A1B963700D7931A /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				F984628B2A1CDE9000D7931A /* SearchView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				F98462692A1B9E5000D7931A /* ProfileView.swift in Sources */,
 				F984624F2A1B937600D7931A /* ContentView.swift in Sources */,
 				F984624D2A1B937600D7931A /* InstaUIApp.swift in Sources */,
+				F984628C2A1CDE9000D7931A /* SearchView.swift in Sources */,
 				F984626C2A1BB44B00D7931A /* UserStatView.swift in Sources */,
 				F984626E2A1BF6D000D7931A /* FeedView.swift in Sources */,
 				F98462672A1B996100D7931A /* MainTabView.swift in Sources */,
